@@ -1,0 +1,17 @@
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'java', '~> 1.50.0'
+cookbook 'apt', '= 5.1.0'
+cookbook 'homebrew', '= 3.0.0'
+cookbook 'windows', '= 2.1.1'
+cookbook 'compat_resource', '~> 12.19.0'
+cookbook 'ohai', '= 4.2.3'
+cookbook 'git', '= 5.0.2'
+cookbook 'mingw', '= 1.2.5'
+cookbook 'build-essential', '= 7.0.3'
+cookbook 'dmg', '= 3.1.1'
+cookbook 'yum-epel', '~> 2.1.1'
+cookbook 'seven_zip', '~> 2.0.2'
+cookbook 's3_file', '~> 2.7.0'
